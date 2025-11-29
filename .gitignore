@@ -1,0 +1,78 @@
+# ===============================
+# Unity
+# ===============================
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+
+# Visual Studio / VSCode
+.vs/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Unity auto-generated
+*.pidb.meta
+*.pdb
+*.mdb
+
+# Crash reports
+sysinfo.txt
+
+# ===============================
+# Android build and artifacts
+# ===============================
+*.apk
+*.aab
+*.unitypackage
+
+# Bee artefacts (Unity compilation system)
+Bee/
+Projeto-RA/Library/Bee/
+
+# ===============================
+# Vuforia — evita arquivos grandes
+# ===============================
+# Pacotes baixados da Vuforia
+**/com.ptc.vuforia.engine-*.tgz
+**/vuforia/
+**/Vuforia/
+
+# ===============================
+# Ignore arquivos maiores de 100 MB (GitHub limita)
+# ===============================
+# (Opcional — evita commits gigantes)
+*[Mm][Bb]in/*
+*.so
+*.jar
+*.dll
+*.a
+*.zip
+*.tgz
+
+# ===============================
+# Sistema operacional
+# ===============================
+# Linux
+*.swap
+*~
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
